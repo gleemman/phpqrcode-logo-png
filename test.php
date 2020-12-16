@@ -21,7 +21,7 @@ $path_1= 'back.png';
 $path_2= 'test.png';//创建图片对象
 //图片三
 $path_3= 'logo.png';//创建图片对象
-imagestring($image,5,190,320,$content,$col);
+
 //imagecreatefrompng($filename)--由文件或 URL 创建一个新图象
 $image_1= imagecreatefrompng($path_1);
 $image_2= imagecreatefrompng($path_2);
